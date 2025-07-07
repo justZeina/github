@@ -64,6 +64,7 @@ a:hover{
      color: rgb(95, 89, 81);
     font-size: 25px;
     border: #333;
+    cursor: pointer;
     
 }
 li{
@@ -128,12 +129,29 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     width: 500px;
     display: flex;
     justify-content: center;
+    align-items: center;
+    text-align: center;
    }
    nav a{ font-size: 19.4px;}
    .mypic{
-    height: 380px;
-    width: 350px;
+    height: 349px;
+    width: 305px;
+    border-radius: 100%;
     
+    
+   }
+   .mypicdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   .mypic:hover{
+    height: 380px;
+    width: 330px;
+    border-radius: 100%;
+   }
+   #greeting{
+    transform: translateX(7.5%);
    }
 }
 .abtmetext{ 
@@ -148,4 +166,15 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     /* animation typrewriter soon */
     justify-content: flex-start;
 }
-     
+  .major{
+ animation: typewriter 3s ease-in 0s infinite alternate;
+  }   
+
+  @keyframes typewriter{
+    from{
+    
+    } 
+    to{
+    
+    }
+  }
